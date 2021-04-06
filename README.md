@@ -1,2 +1,2 @@
-# natures-gold
-honey baby!
+# Nature's Gold
+pure honey. 
