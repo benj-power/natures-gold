@@ -1,0 +1,45 @@
+@import "../../style/_colour";
+@import "../../style/_animation";
+
+footer.footer {
+  background-color: $off-white;
+  height: 200px;
+  box-shadow: 0 -2px 12px 0 rgba(204, 204, 204, 0.16);
+  margin: 0;
+  padding: 37px 75px;
+}
+
+.footer-actions {
+  .footer-action {
+    &:not(:last-of-type) {
+      margin-bottom: 35px;
+    }
+
+    label {
+      @include transition(color);
+      cursor: pointer;
+
+      &:hover {
+        color: $gold;
+      }
+    }
+
+    &-active {
+      label {
+        color: $gold;
+      }
+    }
+  }
+}
+
+.footer-social {
+  @include svg-hover;
+
+  svg.bee {
+    margin-bottom: 33px;
+  }
+
+  svg.fb {
+    margin-right: 13px;
+  }
+}
