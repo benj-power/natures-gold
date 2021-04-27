@@ -2,9 +2,9 @@ import React from 'react';
 import { Route, Switch } from 'react-router';
 import { BrowserRouter } from 'react-router-dom';
 
-import { Footer } from './component/footer/Footer';
-import { Header } from './component/header/Header';
-import { Home } from './component/home/Home';
+import { Footer } from './footer/Footer';
+import { Header } from './header/Header';
+import { Home } from './home/Home';
 
 const App = () => (
   <BrowserRouter basename={ process.env.PUBLIC_URL }>
