@@ -1,0 +1,26 @@
+$duration: .25s;
+
+@mixin transition($properties...) {
+  $transition: '';
+
+  @each $property, $index in $properties {
+    $transition: unquote($transition) + $property $duration;
+
+    @if index($properties, $property) < length($properties) {
+      $transition: $transition + ', ' ease-in-out;
+    }
+  }
+
+  transition: $transition;
+}
+
+@mixin svg-hover {
+  svg {
+    @include transition(opacity);
+    cursor: pointer;
+
+    &:hover {
+      opacity: .7;
+    }
+  }
+}
