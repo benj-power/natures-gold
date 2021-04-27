@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-import { ACTIONS, onActionClick } from '../../util/action';
+import { ACTIONS } from '../../util/data';
 
 import { EMAIL } from '../../util/data';
 
@@ -17,7 +17,6 @@ const renderActions = () => (
       <div key={ name }>
         <NavLink
           to={ link }
-          onClick={ () => { onActionClick(bg);} }
           className="footer-action"
           activeClassName="footer-action-active">
           <label className="alt">

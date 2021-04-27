@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-import { ACTIONS } from '../../util/action';
+import { ACTIONS } from '../../util/data';
 
 import './header.scss';
 
