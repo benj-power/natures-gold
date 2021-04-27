@@ -1,0 +1,22 @@
+.hero.container {
+  padding-top: 154px;
+}
+
+.hero.container, .hive-to-home, .info, .our-honey, .gallery {
+  padding-bottom: 180px;
+}
+
+.home-about-image {
+  border-radius: 10px;
+  box-shadow: 0 3px 12px 0 rgba(204, 204, 204, 0.26);
+}
+
+.blog-post {
+  .blog-post-intro {
+    width: 100%;
+    height: 48px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
