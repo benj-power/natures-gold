@@ -1,0 +1,31 @@
+@import '../../style/_colour';
+@import "../../style/_animation";
+
+header.header.container {
+  background-color: $off-white;
+}
+
+.header-actions {
+  .header-action {
+    color: $grey;
+
+    &:not(:last-of-type) {
+      margin-right: 35px;
+    }
+
+    label {
+      @include transition(color);
+      cursor: pointer;
+
+      &:hover {
+        color: $gold;
+      }
+    }
+
+    &-active {
+      label {
+        color: $gold;
+      }
+    }
+  }
+}
