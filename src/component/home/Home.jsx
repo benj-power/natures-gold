@@ -1,10 +1,11 @@
 import { NavLink } from 'react-router-dom';
 import React from 'react';
 
+import { Button } from '../common/Button';
 import { Card } from '../common/Card';
 
-import heroImage from '../../img/home/hero/hero-image.jpg';
 import aboutImage from '../../img/home/home.jpg';
+import heroImage from '../../img/home/hero/hero-image.jpg';
 
 import { BLOG_POSTS, H_2_H_STEPS, HERO_PARAGRAPH, HOME_ABOUT_PARAGRAPH } from '../../util/data';
 
@@ -22,6 +23,9 @@ const renderHero = () => (
         <img src={ heroImage } alt="hero" />
       </div>
     </div>
+    <div className="row pl-2 mt-4">
+      <Button label="Learn More" routerLink="/about" />
+    </div>
   </div>
 );
 
@@ -29,9 +33,9 @@ const renderHiveToHome = () => (
   <div className="hive-to-home text-center">
     <h2 className="pb-4">From Our Hives to Your Home</h2>
     <div className="row justify-content-center">
-      { H_2_H_STEPS.map(({ label, img }) => (
+      { H_2_H_STEPS.map(({ label, sauce }) => (
         <div className="col-2" key={ label }>
-          { img }
+          { sauce }
           <div className="pt-4">
             <h3 className="alt">{ label }</h3>
           </div>
@@ -42,7 +46,7 @@ const renderHiveToHome = () => (
 );
 
 const renderAboutAndBlogPosts = () => (
-  <div className="info container">
+  <div className="blogs-about container">
     <div className="row">
 
       {/* ABOUT */ }

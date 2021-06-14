@@ -1,0 +1,30 @@
+@import "../../style/_colour";
+@import "../../style/_animation";
+
+$gold-lighter: #e0ba4f;
+
+.button {
+  background-color: $gold;
+  color: $white;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 2px 4px 0 0 rgba(204, 204, 204, 0.26);
+  @include transition(background-color);
+  cursor: pointer;
+
+  &:hover {
+    background-color: $gold-lighter;
+  }
+}
+
+.link {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
