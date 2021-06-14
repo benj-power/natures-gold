@@ -1,3 +1,4 @@
+@import '../../style/_animation';
 @import '../../style/_colour';
 
 .ng-card {
@@ -5,4 +6,9 @@
   box-shadow: 0 3px 12px 0 rgba(204, 204, 204, 0.26);
   padding: 24px 26px 24px 27px;
   border-radius: 10px;
+  @include transition(box-shadow);
+
+  &:hover {
+    box-shadow: 0 3px 12px 0 #cccccc;
+  }
 }

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="honey" width="85.418" height="98.191" viewBox="0 0 85.418 98.191">
+    <defs>
+        <style>
+            .cls-1{fill:#ffcd6b}.cls-3{fill:#f0dbc2}
+        </style>
+    </defs>
+    <path id="Path_155" d="M169.735 70.621v18.622a3.386 3.386 0 1 0 6.772 0 3.386 3.386 0 1 1 6.772 0v1.693a3.386 3.386 0 1 0 6.772 0V70.621z" class="cls-1" transform="translate(-143.57 -57.077)"/>
+    <path id="Path_156" fill="#965735" d="M318.353 35.31h-33.859v6.772h33.859a3.386 3.386 0 1 0 0-6.772z" transform="translate(-236.32 -28.538)"/>
+    <g id="Group_76" transform="translate(0 44.016)">
+        <path id="Path_157" d="M51.227 229.517h57.56a5.079 5.079 0 0 1 5.079 5.079 5.079 5.079 0 0 1-5.079 5.079h-57.56a5.079 5.079 0 0 1-5.079-5.079 5.079 5.079 0 0 1 5.079-5.079z" class="cls-3" transform="translate(-43.684 -229.517)"/>
+        <path id="Path_158" d="M96.71 326.5H42.536l-5.382-9.142a27.886 27.886 0 0 1 5.382-34.875H96.71a27.886 27.886 0 0 1 5.382 34.875z" class="cls-3" transform="translate(-33.3 -272.325)"/>
+    </g>
+    <path id="Path_159" fill="#bf7341" d="M162.237 0h6.772a10.157 10.157 0 0 1 10.158 10.158 10.157 10.157 0 0 1-10.158 10.158h-6.772a10.157 10.157 0 0 1-10.158-10.158A10.157 10.157 0 0 1 162.237 0z" transform="translate(-129.3)"/>
+    <g id="Group_77" transform="translate(.013)">
+        <path id="Path_160" d="M105.034 353.1H34.32a27.837 27.837 0 0 0 2.888 21.331l5.382 9.142h54.174l5.382-9.142a27.839 27.839 0 0 0 2.888-21.331z" class="cls-1" transform="translate(-33.367 -285.385)"/>
+        <path id="Rectangle_31" d="M0 0H3.386V20.315H0z" class="cls-1" transform="translate(34.62)"/>
+        <path id="Path_161" d="M178.562 2.011v17.577a10.082 10.082 0 0 0 3.386 1.217V.794a10.066 10.066 0 0 0-3.386 1.217z" class="cls-1" transform="translate(-150.717 -.642)"/>
+        <path id="Path_162" d="M249.183.794V20.8a10.08 10.08 0 0 0 3.386-1.217V2.011a10.09 10.09 0 0 0-3.386-1.217z" class="cls-1" transform="translate(-207.794 -.642)"/>
+    </g>
+    <path id="Path_163" fill="#e6ccaf" d="M164.171 277.04h-45.709a1.693 1.693 0 0 1 0-3.386h45.709a1.693 1.693 0 0 1 0 3.386z" transform="translate(-100.761 -221.173)"/>
+    <path id="Path_164" fill="#ffb75e" d="M231.759 353.1h-15.236a46.6 46.6 0 0 1-26.361 30.473h33.327l5.382-9.142a27.839 27.839 0 0 0 2.888-21.331z" transform="translate(-160.079 -285.385)"/>
+</svg>
